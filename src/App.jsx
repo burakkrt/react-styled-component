@@ -1,5 +1,5 @@
-import kedi from "./cat.jpg";
-import cake from "./cake.jpg";
+import kedi from "./media/cat.jpg";
+import cake from "./media/cake.jpg";
 import { useState } from "react";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="m-2 bg-secondary px-4 py-3 rounded">
       <div>
-        <h1 className={"fs-1 text-info"}>Hello React !</h1>
+        <h1 className={"fs-1 text-info"}>Hello {process.env.NODE_ENV === "development" ? "Developer !" : "React !"}</h1>
       </div>
       <p className="text-bold text-white">Lorem ipsum dolor
         sit amet,
@@ -26,7 +26,7 @@ function App() {
         width: "250px",
         height: "250px"
       }}>
-        <img className="image w-100 h-100 object-fit-cover m-0" src={resim} alt="Cat Image" />
+        <img className="image w-100 h-100 object-fit-cover m-0" src={resim} alt="Cat Image" style={{ objectPosition: "top" }} />
       </div>
       <button className={"btn btn-danger my-3"} onClick={() => {
         resim === kedi ? setResim(cake) : setResim(kedi);

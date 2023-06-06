@@ -1,13 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App.jsx";
-import "./custom.css";
+
+// Components
 import Status from "./status";
+import Cat from "./Cat";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <Cat />
     <Status />
   </React.StrictMode>
 );

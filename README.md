@@ -2,7 +2,7 @@
 
 Assigning special style properties to the tags we set with the React Style Component.
 
-[**Go Live**](https://burakkrt.github.io/landing-page-javascript/)
+[**Go Live**](https://react-styled-component.netlify.app)
 
 ## Technologies used and dependencies
 

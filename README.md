@@ -2,7 +2,7 @@
 
 Assigning special style properties to the tags we set with the React Style Component.
 
-[**Go Live**](react-styled-component.netlify.app)
+[**Go Live**](https://react-styled-component.netlify.app)
 
 ## Technologies used and dependencies
 
